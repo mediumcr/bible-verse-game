@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Scripture Quest — a retro Bible adventure for all ages (English / Español).">
+  <title>Scripture Quest · La Búsqueda de la Palabra</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="wrap">
+    <canvas id="game" width="256" height="224" tabindex="0" aria-label="Scripture Quest game"></canvas>
+  </main>
+  <div id="touch" aria-hidden="true">
+    <div class="dpad">
+      <span class="arm up"></span><span class="arm down"></span><span class="arm left"></span><span class="arm right"></span><span class="hub"></span>
+    </div>
+    <div class="buttons">
+      <button class="btn small" data-action="pause" aria-label="Menu">&#9776;</button>
+      <button class="btn small" data-action="cycle" aria-label="Switch ability">&#10227;</button>
+      <button class="btn b" data-action="action" aria-label="Ability">B</button>
+      <button class="btn a" data-action="interact" aria-label="Interact">A</button>
+    </div>
+  </div>
+  <noscript>Scripture Quest needs JavaScript.</noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

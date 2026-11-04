@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scripture Quest — Audio Test</title>
+<style>
+  body { background: #1b1426; color: #f4e9c8; font: 14px/1.4 monospace; margin: 16px; }
+  h1 { font-size: 18px; margin: 0 0 8px; }
+  h2 { font-size: 14px; margin: 16px 0 6px; color: #e8c15a; }
+  button { background: #3a2c52; color: #f4e9c8; border: 2px solid #e8c15a; padding: 6px 10px; margin: 3px;
+           font: inherit; cursor: pointer; }
+  button:hover { background: #50406e; }
+  button.on { background: #e8c15a; color: #1b1426; }
+  #status { margin-top: 12px; color: #9fd0a0; }
+</style>
+</head>
+<body>
+<h1>Scripture Quest — Audio Test</h1>
+<p>Click any button (the first click initializes WebAudio).</p>
+<div><button id="mute">Mute: off</button> <button id="init">Init</button></div>
+<h2>Music</h2>
+<div id="music"></div>
+<h2>SFX</h2>
+<div id="sfx"></div>
+<div id="status">ready</div>
+<script type="module">
+import { Audio } from '../js/audio.js';
+
+const SFX = ['step', 'chest_open', 'verse_get', 'ability_get', 'heart_get', 'hit_enemy', 'enemy_die', 'hero_hurt',
+  'hero_die', 'sling', 'smash', 'staff_part', 'shield', 'fire', 'sun', 'menu_move', 'menu_select', 'dialog_blip',
+  'boss_stomp', 'boss_spear', 'boss_hurt', 'boss_die', 'checkpoint', 'error'];
+const TRACKS = ['title', 'overworld', 'den', 'boss', 'victory', null];
+const status = document.getElementById('status');
+
+function mk(parent, label, fn) {
+  const b = document.createElement('button');
+  b.textContent = label;
+  b.addEventListener('click', () => { Audio.init(); fn(b); status.textContent = 'played: ' + label; });
+  parent.appendChild(b);
+  return b;
+}
+
+const mBox = document.getElementById('music');
+const mButtons = [];
+for (const t of TRACKS) {
+  const b = mk(mBox, t === null ? 'stop (null)' : t, () => {
+    Audio.music(t);
+    mButtons.forEach((x) => x.classList.toggle('on', x === b && t !== null));
+  });
+  b.dataset.track = String(t);
+  mButtons.push(b);
+}
+const sBox = document.getElementById('sfx');
+for (const s of SFX) mk(sBox, s, () => Audio.sfx(s)).dataset.sfx = s;
+
+const muteBtn = document.getElementById('mute');
+muteBtn.addEventListener('click', () => {
+  Audio.init();
+  Audio.setMuted(!Audio.isMuted());
+  muteBtn.textContent = 'Mute: ' + (Audio.isMuted() ? 'on' : 'off');
+  muteBtn.classList.toggle('on', Audio.isMuted());
+});
+document.getElementById('init').addEventListener('click', () => { Audio.init(); status.textContent = 'initialized'; });
+</script>
+</body>
+</html>

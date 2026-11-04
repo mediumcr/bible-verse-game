@@ -1,0 +1,88 @@
+{
+ "translations": {
+  "en": {
+   "default": "kjv",
+   "kjv": {
+    "name": "King James Version",
+    "credit": "Scripture quotations from the King James Version (public domain)."
+   }
+  },
+  "es": {
+   "default": "ntv",
+   "fallback": "rv1909",
+   "ntv": {
+    "name": "Nueva Traducción Viviente",
+    "credit": "El texto bíblico indicado con «NTV» ha sido tomado de la Santa Biblia, Nueva Traducción Viviente, © Tyndale House Foundation, 2010. Usado con permiso de Tyndale House Publishers, Inc., 351 Executive Dr., Carol Stream, IL 60188, Estados Unidos de América. Todos los derechos reservados."
+   },
+   "rv1909": {
+    "name": "Reina-Valera 1909",
+    "credit": "Reina-Valera 1909 (dominio público)."
+   }
+  }
+ },
+ "verses": [
+  {
+   "id": "psalm-23-1",
+   "rarity": "common",
+   "ref": {
+    "en": "Psalm 23:1",
+    "es": "Salmo 23:1"
+   },
+   "text": {
+    "kjv": "The LORD is my shepherd; I shall not want.",
+    "rv1909": "JEHOVA es mi pastor; nada me faltará.",
+    "ntv": null
+   },
+   "theme": {
+    "en": "Care",
+    "es": "Cuidado"
+   },
+   "hint": {
+    "en": "Fixture chest row",
+    "es": "Fila de cofres"
+   }
+  },
+  {
+   "id": "john-3-16",
+   "rarity": "golden",
+   "ref": {
+    "en": "John 3:16",
+    "es": "Juan 3:16"
+   },
+   "text": {
+    "kjv": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+    "rv1909": "Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.",
+    "ntv": null
+   },
+   "theme": {
+    "en": "God's love",
+    "es": "El amor de Dios"
+   },
+   "hint": {
+    "en": "Golden fixture",
+    "es": "Cofre dorado"
+   }
+  }
+ ],
+ "victoryVerse": {
+  "id": "1-samuel-17-47",
+  "rarity": "golden",
+  "ref": {
+   "en": "1 Samuel 17:47",
+   "es": "1 Samuel 17:47"
+  },
+  "text": {
+   "kjv": "...for the battle is the LORD's.",
+   "rv1909": "...porque de Jehová es la guerra.",
+   "ntv": null
+  },
+  "theme": {
+   "en": "Victory",
+   "es": "Victoria"
+  },
+  "hint": {
+   "en": "",
+   "es": ""
+  }
+ }
+}

@@ -1,0 +1,520 @@
+{
+  "tileSize": 16,
+  "image": "spritesheet.png",
+  "frames": {
+    "hero_down_0": {
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_down_1": {
+      "x": 16,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_up_0": {
+      "x": 32,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_up_1": {
+      "x": 48,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_right_0": {
+      "x": 64,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_right_1": {
+      "x": 80,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_left_0": {
+      "x": 96,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "hero_left_1": {
+      "x": 112,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "hero"
+    },
+    "npc_prophet": {
+      "x": 128,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "npc"
+    },
+    "chest_closed": {
+      "x": 144,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "item"
+    },
+    "chest_open": {
+      "x": 160,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "item"
+    },
+    "sign_post": {
+      "x": 176,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "item"
+    },
+    "item_verse_scroll": {
+      "x": 192,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "item"
+    },
+    "item_verse_scroll_gold": {
+      "x": 208,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "item"
+    },
+    "item_heart": {
+      "x": 224,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "item"
+    },
+    "ui_heart_full": {
+      "x": 240,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "category": "ui"
+    },
+    "ui_heart_empty": {
+      "x": 0,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "ui"
+    },
+    "icon_sling": {
+      "x": 16,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "icon"
+    },
+    "icon_strength": {
+      "x": 32,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "icon"
+    },
+    "icon_staff": {
+      "x": 48,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "icon"
+    },
+    "icon_faith": {
+      "x": 64,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "icon"
+    },
+    "icon_fire": {
+      "x": 80,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "icon"
+    },
+    "icon_sun": {
+      "x": 96,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "icon"
+    },
+    "relic_tablets": {
+      "x": 112,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "relic"
+    },
+    "ally_lion_daniel": {
+      "x": 128,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "relic"
+    },
+    "fx_sling_stone": {
+      "x": 144,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_fire_elijah_0": {
+      "x": 160,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_fire_elijah_1": {
+      "x": 176,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_shield_0": {
+      "x": 192,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_shield_1": {
+      "x": 208,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_puff_0": {
+      "x": 224,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_puff_1": {
+      "x": 240,
+      "y": 16,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_smash_0": {
+      "x": 0,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_smash_1": {
+      "x": 16,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_spear": {
+      "x": 32,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_shockwave_0": {
+      "x": 48,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "fx_shockwave_1": {
+      "x": 64,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "fx"
+    },
+    "enemy_serpent_0": {
+      "x": 80,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_serpent_1": {
+      "x": 96,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_scorpion_0": {
+      "x": 112,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_scorpion_1": {
+      "x": 128,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_jackal_0": {
+      "x": 144,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_jackal_1": {
+      "x": 160,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_lion_0": {
+      "x": 176,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "enemy_lion_1": {
+      "x": 192,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "enemy"
+    },
+    "tile_grass": {
+      "x": 208,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_sand": {
+      "x": 224,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_path": {
+      "x": 240,
+      "y": 32,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_water_0": {
+      "x": 0,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_water_1": {
+      "x": 16,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_parted_sea_0": {
+      "x": 32,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_parted_sea_1": {
+      "x": 48,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_stone_wall": {
+      "x": 64,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_palm": {
+      "x": 80,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_rock": {
+      "x": 96,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_boulder": {
+      "x": 112,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_thorn": {
+      "x": 128,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_tent": {
+      "x": 144,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_den_floor": {
+      "x": 160,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "tile_arena_floor": {
+      "x": 176,
+      "y": 48,
+      "w": 16,
+      "h": 16,
+      "category": "tile"
+    },
+    "boss_giant_0": {
+      "x": 0,
+      "y": 64,
+      "w": 32,
+      "h": 32,
+      "category": "boss"
+    },
+    "boss_giant_1": {
+      "x": 32,
+      "y": 64,
+      "w": 32,
+      "h": 32,
+      "category": "boss"
+    },
+    "boss_giant_stomp": {
+      "x": 64,
+      "y": 64,
+      "w": 32,
+      "h": 32,
+      "category": "boss"
+    },
+    "boss_giant_hurt": {
+      "x": 96,
+      "y": 64,
+      "w": 32,
+      "h": 32,
+      "category": "boss"
+    }
+  },
+  "animations": {
+    "hero_down": [
+      "hero_down_0",
+      "hero_down_1"
+    ],
+    "hero_up": [
+      "hero_up_0",
+      "hero_up_1"
+    ],
+    "hero_right": [
+      "hero_right_0",
+      "hero_right_1"
+    ],
+    "hero_left": [
+      "hero_left_0",
+      "hero_left_1"
+    ],
+    "fx_fire_elijah": [
+      "fx_fire_elijah_0",
+      "fx_fire_elijah_1"
+    ],
+    "fx_shield": [
+      "fx_shield_0",
+      "fx_shield_1"
+    ],
+    "fx_puff": [
+      "fx_puff_0",
+      "fx_puff_1"
+    ],
+    "fx_smash": [
+      "fx_smash_0",
+      "fx_smash_1"
+    ],
+    "fx_shockwave": [
+      "fx_shockwave_0",
+      "fx_shockwave_1"
+    ],
+    "enemy_serpent": [
+      "enemy_serpent_0",
+      "enemy_serpent_1"
+    ],
+    "enemy_scorpion": [
+      "enemy_scorpion_0",
+      "enemy_scorpion_1"
+    ],
+    "enemy_jackal": [
+      "enemy_jackal_0",
+      "enemy_jackal_1"
+    ],
+    "enemy_lion": [
+      "enemy_lion_0",
+      "enemy_lion_1"
+    ],
+    "tile_water": [
+      "tile_water_0",
+      "tile_water_1"
+    ],
+    "tile_parted_sea": [
+      "tile_parted_sea_0",
+      "tile_parted_sea_1"
+    ],
+    "boss_giant": [
+      "boss_giant_0",
+      "boss_giant_1"
+    ]
+  }
+}

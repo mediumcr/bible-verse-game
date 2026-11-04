@@ -1,0 +1,62 @@
+html, body {
+  margin: 0; padding: 0; height: 100%; width: 100%;
+  background: #000; overflow: hidden;
+  overscroll-behavior: none; touch-action: none;
+  -webkit-user-select: none; user-select: none;
+  -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent;
+}
+#wrap {
+  position: fixed; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+body.portrait #wrap { align-items: flex-start; }
+#game {
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  outline: none;
+  background: #000;
+}
+
+/* ---------- touch controls (only on touch devices) ---------- */
+#touch { display: none; }
+body.touch #touch {
+  display: block; position: fixed; left: 0; right: 0; bottom: 0;
+  pointer-events: none; z-index: 2;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+body.touch:not(.portrait) #touch { top: auto; height: 100%; }
+.dpad {
+  position: absolute; left: 18px; bottom: calc(18px + env(safe-area-inset-bottom));
+  width: 150px; height: 150px; pointer-events: auto; touch-action: none;
+}
+body.portrait .dpad { top: auto; }
+.dpad .arm, .dpad .hub { position: absolute; background: rgba(60,60,90,.75); border: 2px solid rgba(232,220,184,.55); box-sizing: border-box; }
+.dpad .up    { left: 50px; top: 0;    width: 50px; height: 56px; border-radius: 8px 8px 0 0; border-bottom: none; }
+.dpad .down  { left: 50px; bottom: 0; width: 50px; height: 56px; border-radius: 0 0 8px 8px; border-top: none; }
+.dpad .left  { top: 50px; left: 0;    width: 56px; height: 50px; border-radius: 8px 0 0 8px; border-right: none; }
+.dpad .right { top: 50px; right: 0;   width: 56px; height: 50px; border-radius: 0 8px 8px 0; border-left: none; }
+.dpad .hub   { left: 50px; top: 50px; width: 50px; height: 50px; border: none; background: rgba(60,60,90,.75); }
+.dpad[data-v="up"] .up, .dpad[data-v="down"] .down,
+.dpad[data-h="left"] .left, .dpad[data-h="right"] .right { background: rgba(248,208,80,.7); }
+.buttons {
+  position: absolute; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom));
+  width: 170px; height: 160px; pointer-events: none;
+}
+.btn {
+  position: absolute; pointer-events: auto; touch-action: none;
+  border-radius: 50%; border: 2px solid rgba(232,220,184,.75);
+  background: rgba(60,60,90,.8); color: #f8f0d8;
+  font: bold 22px/1 system-ui, sans-serif; padding: 0; margin: 0;
+  -webkit-appearance: none; appearance: none;
+}
+.btn.down { background: rgba(248,208,80,.85); color: #201808; }
+.btn.a { width: 68px; height: 68px; right: 0; bottom: 40px; }
+.btn.b { width: 68px; height: 68px; right: 78px; bottom: 0; }
+.btn.small { width: 44px; height: 44px; font-size: 20px; top: 0; }
+.btn.small[data-action="pause"] { right: 0; }
+.btn.small[data-action="cycle"] { right: 56px; }
+/* portrait phones: controls vertically centred in the space under the canvas */
+body.portrait #touch { bottom: auto; }
+body.portrait .dpad, body.portrait .buttons { top: 50%; bottom: auto; transform: translateY(-50%); }

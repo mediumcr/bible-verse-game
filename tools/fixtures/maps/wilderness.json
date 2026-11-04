@@ -1,0 +1,195 @@
+{
+ "id": "wilderness",
+ "name": {
+  "en": "Test Grounds",
+  "es": "Campo de pruebas"
+ },
+ "width": 32,
+ "height": 20,
+ "legend": {
+  ".": "grass",
+  ",": "sand",
+  "=": "path",
+  "~": "water",
+  "#": "stone_wall",
+  "T": "palm",
+  "r": "rock",
+  "o": "boulder",
+  "*": "thorn",
+  "A": "tent",
+  "d": "den_floor",
+  "a": "arena_floor"
+ },
+ "rows": [
+  "################################",
+  "#..............................#",
+  "#..............................#",
+  "#..............................#",
+  "#.......####o####..............#",
+  "#.......#,,,,,,,#....~~~~~.....#",
+  "#.......#,,,,,,,#....~~~~~.....#",
+  "#.......#########....~~~~~.....#",
+  "#...................ddddddd....#",
+  "#...................ddddddd....#",
+  "#....**.............ddddddd....#",
+  "#...................ddddddd....#",
+  "#..............................#",
+  "#..aaaaaaaaaaaaaa..............#",
+  "#..aaaaaaaaaaaaaa......T..r....#",
+  "#..aaaaaaaaaaaaaa..............#",
+  "#..aaaaaaaaaaaaaa......A.......#",
+  "#..aaaaaaaaaaaaaa..............#",
+  "#..aaaaaaaaaaaaaa..............#",
+  "################################"
+ ],
+ "playerStart": {
+  "x": 3,
+  "y": 3
+ },
+ "checkpoints": [
+  {
+   "id": "camp",
+   "x": 3,
+   "y": 3
+  },
+  {
+   "id": "cp_mid",
+   "x": 18,
+   "y": 12
+  }
+ ],
+ "chests": [
+  {
+   "id": "c_sling",
+   "x": 2,
+   "y": 1,
+   "contains": {
+    "type": "ability",
+    "ability": "sling"
+   }
+  },
+  {
+   "id": "c_strength",
+   "x": 4,
+   "y": 1,
+   "contains": {
+    "type": "ability",
+    "ability": "strength"
+   }
+  },
+  {
+   "id": "c_staff",
+   "x": 6,
+   "y": 1,
+   "contains": {
+    "type": "ability",
+    "ability": "staff"
+   }
+  },
+  {
+   "id": "c_faith",
+   "x": 8,
+   "y": 1,
+   "contains": {
+    "type": "ability",
+    "ability": "faith"
+   }
+  },
+  {
+   "id": "c_fire",
+   "x": 10,
+   "y": 1,
+   "contains": {
+    "type": "ability",
+    "ability": "fire"
+   }
+  },
+  {
+   "id": "c_sun",
+   "x": 12,
+   "y": 1,
+   "contains": {
+    "type": "ability",
+    "ability": "sun"
+   }
+  },
+  {
+   "id": "c_v1",
+   "x": 14,
+   "y": 1,
+   "contains": {
+    "type": "verse",
+    "verseId": "psalm-23-1"
+   }
+  },
+  {
+   "id": "c_v2",
+   "x": 16,
+   "y": 1,
+   "contains": {
+    "type": "verse",
+    "verseId": "john-3-16"
+   }
+  },
+  {
+   "id": "c_h1",
+   "x": 18,
+   "y": 1,
+   "contains": {
+    "type": "heart"
+   }
+  }
+ ],
+ "npcs": [
+  {
+   "id": "elder",
+   "sprite": "npc_prophet",
+   "x": 1,
+   "y": 3,
+   "dialog": [
+    "dialog.elder_1",
+    "dialog.elder_2"
+   ]
+  }
+ ],
+ "signs": [
+  {
+   "x": 5,
+   "y": 3,
+   "text": "sign.camp"
+  }
+ ],
+ "enemies": [
+  {
+   "type": "serpent",
+   "x": 10,
+   "y": 3
+  },
+  {
+   "type": "scorpion",
+   "x": 26,
+   "y": 3
+  },
+  {
+   "type": "jackal",
+   "x": 28,
+   "y": 13
+  },
+  {
+   "type": "lion",
+   "x": 24,
+   "y": 9
+  }
+ ],
+ "boss": {
+  "type": "giant",
+  "x": 9,
+  "y": 15,
+  "arena": {
+   "x": 3,
+   "y": 13,
+   "w": 14,
+   "h": 6
+  }
+ }
+}

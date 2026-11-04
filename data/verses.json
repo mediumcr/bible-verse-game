@@ -1,0 +1,280 @@
+{
+  "translations": {
+    "en": {
+      "default": "kjv",
+      "kjv": {
+        "name": "King James Version",
+        "credit": "Scripture quotations from the King James Version (public domain)."
+      }
+    },
+    "es": {
+      "default": "ntv",
+      "fallback": "rv1909",
+      "ntv": {
+        "name": "Nueva Traducción Viviente",
+        "credit": "El texto bíblico indicado con «NTV» ha sido tomado de la Santa Biblia, Nueva Traducción Viviente, © Tyndale House Foundation, 2010. Usado con permiso de Tyndale House Publishers, Inc., 351 Executive Dr., Carol Stream, IL 60188, Estados Unidos de América. Todos los derechos reservados."
+      },
+      "rv1909": {
+        "name": "Reina-Valera 1909",
+        "credit": "Reina-Valera 1909 (dominio público)."
+      }
+    }
+  },
+  "verses": [
+    {
+      "id": "joshua-1-9",
+      "rarity": "common",
+      "ref": {
+        "en": "Joshua 1:9",
+        "es": "Josué 1:9"
+      },
+      "text": {
+        "kjv": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+        "rv1909": "Mira que te mando que te esfuerces y seas valiente: no temas ni desmayes, porque Jehová tu Dios será contigo en donde quiera que fueres.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "Be strong and brave",
+        "es": "Esfuérzate y sé valiente"
+      },
+      "hint": {
+        "en": "Hidden near the camp",
+        "es": "Escondido cerca del campamento"
+      }
+    },
+    {
+      "id": "jeremiah-29-11",
+      "rarity": "common",
+      "ref": {
+        "en": "Jeremiah 29:11",
+        "es": "Jeremías 29:11"
+      },
+      "text": {
+        "kjv": "For I know the thoughts that I think toward you, saith the LORD, thoughts of peace, and not of evil, to give you an expected end.",
+        "rv1909": "Porque yo sé los pensamientos que tengo acerca de vosotros, dice Jehová, pensamientos de paz, y no de mal, para daros el fin que esperáis.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "God's good plans",
+        "es": "Los buenos planes de Dios"
+      },
+      "hint": {
+        "en": "Off a side path in the Canyon",
+        "es": "Por un sendero lateral del Cañón"
+      }
+    },
+    {
+      "id": "psalm-23-1",
+      "rarity": "common",
+      "ref": {
+        "en": "Psalm 23:1",
+        "es": "Salmos 23:1"
+      },
+      "text": {
+        "kjv": "The LORD is my shepherd; I shall not want.",
+        "rv1909": "JEHOVA es mi pastor; nada me faltará.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "The Good Shepherd",
+        "es": "El Buen Pastor"
+      },
+      "hint": {
+        "en": "North end of the Canyon, high past the boulders",
+        "es": "Al norte del Cañón, en lo alto tras las rocas"
+      }
+    },
+    {
+      "id": "isaiah-40-31",
+      "rarity": "common",
+      "ref": {
+        "en": "Isaiah 40:31",
+        "es": "Isaías 40:31"
+      },
+      "text": {
+        "kjv": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+        "rv1909": "Mas los que esperan á Jehová tendrán nuevas fuerzas; levantarán las alas como águilas, correrán, y no se cansarán, caminarán, y no se fatigarán.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "Wings like eagles",
+        "es": "Alas como águilas"
+      },
+      "hint": {
+        "en": "South end of the Canyon, low past the boulders",
+        "es": "Al sur del Cañón, en lo bajo tras las rocas"
+      }
+    },
+    {
+      "id": "exodus-14-14",
+      "rarity": "common",
+      "ref": {
+        "en": "Exodus 14:14",
+        "es": "Éxodo 14:14"
+      },
+      "text": {
+        "kjv": "The LORD shall fight for you, and ye shall hold your peace.",
+        "rv1909": "Jehová peleará por vosotros, y vosotros estaréis quedos.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "God fights for us",
+        "es": "Dios pelea por nosotros"
+      },
+      "hint": {
+        "en": "On a little islet off the Red Sea Shore",
+        "es": "En un islote frente a la orilla del Mar Rojo"
+      }
+    },
+    {
+      "id": "psalm-119-105",
+      "rarity": "golden",
+      "ref": {
+        "en": "Psalm 119:105",
+        "es": "Salmos 119:105"
+      },
+      "text": {
+        "kjv": "Thy word is a lamp unto my feet, and a light unto my path.",
+        "rv1909": "Lámpara es á mis pies tu palabra, Y lumbrera á mi camino.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "Light for my path",
+        "es": "Luz en mi camino"
+      },
+      "hint": {
+        "en": "On the far shore of the Red Sea",
+        "es": "En la otra orilla del Mar Rojo"
+      }
+    },
+    {
+      "id": "proverbs-3-5",
+      "rarity": "common",
+      "ref": {
+        "en": "Proverbs 3:5",
+        "es": "Proverbios 3:5"
+      },
+      "text": {
+        "kjv": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
+        "rv1909": "Fíate de Jehová de todo tu corazón, Y no estribes en tu prudencia.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "Trust in God",
+        "es": "Confiar en Dios"
+      },
+      "hint": {
+        "en": "Inside the Lions' Den",
+        "es": "Dentro del Foso de los Leones"
+      }
+    },
+    {
+      "id": "john-3-16",
+      "rarity": "golden",
+      "ref": {
+        "en": "John 3:16",
+        "es": "Juan 3:16"
+      },
+      "text": {
+        "kjv": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+        "rv1909": "Porque de tal manera amó Dios al mundo, que ha dado á su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "God's love",
+        "es": "El amor de Dios"
+      },
+      "hint": {
+        "en": "Behind thorns on Mount Carmel",
+        "es": "Tras las espinas del Monte Carmelo"
+      }
+    },
+    {
+      "id": "philippians-4-13",
+      "rarity": "common",
+      "ref": {
+        "en": "Philippians 4:13",
+        "es": "Filipenses 4:13"
+      },
+      "text": {
+        "kjv": "I can do all things through Christ which strengtheneth me.",
+        "rv1909": "Todo lo puedo en Cristo que me fortalece.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "Strength in Christ",
+        "es": "Fuerza en Cristo"
+      },
+      "hint": {
+        "en": "Behind thorns on Mount Carmel",
+        "es": "Tras las espinas del Monte Carmelo"
+      }
+    },
+    {
+      "id": "romans-8-28",
+      "rarity": "common",
+      "ref": {
+        "en": "Romans 8:28",
+        "es": "Romanos 8:28"
+      },
+      "text": {
+        "kjv": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+        "rv1909": "Y sabemos que á los que á Dios aman, todas las cosas les ayudan á bien, es á saber, á los que conforme al propósito son llamados.",
+        "ntv": null
+      },
+      "theme": {
+        "en": "All for good",
+        "es": "Todo para bien"
+      },
+      "hint": {
+        "en": "In the Valley of Aijalon",
+        "es": "En el Valle de Ajalón"
+      }
+    }
+  ],
+  "victoryVerse": {
+    "id": "1-samuel-17-47",
+    "rarity": "golden",
+    "ref": {
+      "en": "1 Samuel 17:47",
+      "es": "1 Samuel 17:47"
+    },
+    "text": {
+      "kjv": "And all this assembly shall know that the LORD saveth not with sword and spear: for the battle is the LORD's, and he will give you into our hands.",
+      "rv1909": "Y sabrá toda esta congregación que Jehová no salva con espada y lanza; porque de Jehová es la guerra, y él os entregará en nuestras manos.",
+      "ntv": null
+    },
+    "theme": {
+      "en": "The battle is the LORD's",
+      "es": "La batalla es de Dios"
+    },
+    "hint": {
+      "en": "Defeat the Giant",
+      "es": "Vence al Gigante"
+    }
+  },
+  "zones": {
+    "joshua-1-9": "Camp",
+    "jeremiah-29-11": "Canyon",
+    "psalm-23-1": "Canyon",
+    "isaiah-40-31": "Canyon",
+    "exodus-14-14": "Red Sea Shore",
+    "psalm-119-105": "Red Sea Shore",
+    "proverbs-3-5": "Lions' Den",
+    "john-3-16": "Mount Carmel",
+    "philippians-4-13": "Mount Carmel",
+    "romans-8-28": "Valley of Aijalon"
+  },
+  "zoneDetails": {
+    "joshua-1-9": "near the tents",
+    "jeremiah-29-11": "side path",
+    "psalm-23-1": "north, beyond the boulders",
+    "isaiah-40-31": "south, beyond the boulders",
+    "exodus-14-14": "islet",
+    "psalm-119-105": "far shore",
+    "proverbs-3-5": "inside the den",
+    "john-3-16": "behind thorn hedge",
+    "philippians-4-13": "behind thorn hedge",
+    "romans-8-28": "before the arena"
+  }
+}
